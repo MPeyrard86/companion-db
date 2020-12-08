@@ -1,0 +1,13 @@
+#include <iostream>
+
+#include <companion/ingest/ingest_controller.h>
+
+int main()
+{
+  std::cout << "Hello, World!" << std::endl;
+
+  companion::ingest::IngestController ctl;
+  std::cout << "Created the ingest controller!" << std::endl;
+
+  return 0;
+}
